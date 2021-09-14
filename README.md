@@ -117,7 +117,7 @@ let person3 = {
     firstName: 'A'
 }
 
-shallowCheck(person1, person2);
+shallowCheck(person1, person2); // false
 ```
 
 This time, even both `person1` and `person2` having the same content, `shallowCheck(person1, person2)` returns `false`.
